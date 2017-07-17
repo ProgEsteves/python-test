@@ -1,6 +1,7 @@
 ## Comments:
 
 To resolve finite state machine (FSM) challenge I decided to use the Fysom library.
+
 In this way, I focused efforts to flow control and FSM testing.
 
 ## Introduction:
