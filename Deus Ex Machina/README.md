@@ -1,31 +1,11 @@
-## Usage
+## Comments:
 
-### Requirements
-
-`pip install -r requirements.txt`
-
-* fysom
-* numpy
-* unittest
-
-### Run FSM
-
-`python main.py`
-
-Command List:
-* start
-* collect
-* process
-* stop
-* exit
-
-### Run tests
-
-`python tests.py`
+To resolve finite state machine (FSM) challenge I decided to use the Fysom library.
+In this way, I focused efforts to flow control and FSM testing.
 
 ## Introduction:
 
-A finite state machine (FSM) its a abstract mathematical model of a machine that can assume only one state at time of a finite list of possible states.
+A FSM its a abstract mathematical model of a machine that can assume only one state at time of a finite list of possible states.
 The FSM can change from one state to another in response to an external input and this change is called transition. The FSM is defined by your list of states, your initial state and the conditions for each transition.
 
 ## Description:
@@ -51,3 +31,28 @@ To simulate the data collection, the collectData method must use the class array
 The processData method must receive the collected data and run the following processing operations: multiply each element by the scalar 5 and calculate the transposed of this result. After this processing stage, prints the final result to the user and perform the transition to the collecting state.
 
 At any time, the user must be allowed to send a input command to the FSM to achieve a state transition accordingly to the previous table.
+
+## Usage:
+
+### Requirements:
+
+`pip install -r requirements.txt`
+
+* fysom
+* numpy
+* unittest
+
+### Run FSM:
+
+`python main.py`
+
+Command List:
+* start
+* collect
+* process
+* stop
+* exit
+
+### Run tests
+
+`python tests.py`
