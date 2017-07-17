@@ -3,7 +3,7 @@
 
 # lib Fysom implements a FSM behavior based on a dictionaty structure
 from fysom import Fysom, FysomError
-from data import Data
+from data import Data 
 
 class DeusExMachina(object):
 

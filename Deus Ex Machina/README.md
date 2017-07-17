@@ -1,14 +1,14 @@
 ## Usage
 
-# Requirements
+### Requirements
+
+`pip install -r requirements.txt`
 
 * fysom
 * numpy
 * unittest
 
-`pip install -r requirements.txt`
-
-# Run
+### Run FSM
 
 `python main.py`
 
@@ -19,7 +19,7 @@ Command List:
 * stop
 * exit
 
-# Tests
+### Run tests
 
 `python tests.py`
 

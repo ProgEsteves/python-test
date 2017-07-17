@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from deus_ex_machina import DeusExMachine as FSM
+from deus_ex_machina import DeusExMachina as FSM
 import sys
 
 def exit():

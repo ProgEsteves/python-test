@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from deus_ex_machina import DeusExMachina as FSM
-import unittest
+import unittest 
 
 class FsmTest(unittest.TestCase):
 
