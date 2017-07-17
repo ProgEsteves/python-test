@@ -1,3 +1,28 @@
+## Usage
+
+# Requirements
+
+* fysom
+* numpy
+* unittest
+
+`pip install -r requirements.txt`
+
+# Run
+
+`python main.py`
+
+Command List:
+* start
+* collect
+* process
+* stop
+* exit
+
+# Tests
+
+`python tests.py`
+
 ## Introduction:
 
 A finite state machine (FSM) its a abstract mathematical model of a machine that can assume only one state at time of a finite list of possible states.
